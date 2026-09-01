@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* aquí se personaliza esta webada*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 253, 241);
+}
+/* Aqui se hace la webada granputa del menu de navegación*/
+header{
+    background-color: #791934;
+    color: #faf5f5;
+    text-align: center;
+}
+#menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: #faf5f5;
+    background-color: #f3ac00;
+    padding: 10px 30px;
+    border-radius: 35px;
+    font-weight: bolder;
+    transition: all 1.2s ease;
+}
+#menu a:hover{
+    background-color: #FFBF25;
+}
+/*Aqui se hace la puta maricona mierda escroto de la gran perra puta del cuerpo obseno de mi página odio esta webada, vine a diseño para nunca programar carajo*/
+#contenedor{
+    display: flex;
+    min-height: 400px;
+    min-height: 100vh;
+}
+#publicidad1{
+    width: 20%;
+    background-color: #911E3E;
+}
+#contenido{
+    width: 60%;
+    background-color: #FFFCF5;
+}
+#publicidad2{
+    width: 20%;
+    background-color: #911E3E;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 2px #791934;
+    border-radius: 20px;
+}
+footer{
+    color: #FFFCF5;
+    text-align: center;
+    padding: 80px;
+}
+/*La puta galería sionista de mierda escoria del orto*/
+#galería_prod{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+.prod{
+    background-color: #fffdf8;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.prod img{
+    width: 100%;
+    border: #791934;
+    border-radius: 19px;
+}
+.prod :hover{
+    box-shadow: 0px 5px 10px #791934;
+    border: 1px solid #f3ac00;
+}
+button{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #911E3E;
+    color: #f3ac00;
+    border: none;
+    cursor: pointer;
+
+}
+button :hover{
+box-shadow: 0px 5px 19px #791934;
+border-radius: 12px;
+background-color: #f3ac00;
+}
+/*AHORA HARÉ LA PARTE DE SERVICIOS; XFA ESTO NO ES UN MEME AYUDA*/
+#galería_servicio{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+.servicio{
+    background-color: #fffdf8;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.servicio img{
+    width: 100%;
+    border: #791934;
+    border-radius: 19px;
+}
+.servicio :hover{
+    box-shadow: 0px 5px 10px #791934;
+    border: 1px solid #f3ac00;
+}
+button{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #911E3E;
+    color: #f3ac00;
+    border: none;
+    cursor: pointer;
+
+}
+button :hover{
+box-shadow: 0px 5px 19px #791934;
+border-radius: 12px;
+background-color: #f3ac00;
+}
+/*AHORA EN ESTE PUTO ESPACIO DE MIERDA DEBERÉ DE HACER UNA WEBADA DE LOS CONTACTOS DE MIERDA, CTM NO QUIERO SEGUIR ACÁ, YA QUIERO USAR FIGMA CARAJO*/
+#galería_contactos{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+.contactos{
+    background-color: #fffdf8;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.contactos img{
+    width: 100%;
+    border: #791934;
+    border-radius: 19px;
+}
+.contactos :hover{
+    box-shadow: 0px 5px 10px #791934;
+    border: 1px solid #f3ac00;
+}
+button{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #911E3E;
+    color: #f3ac00;
+    border: none;
+    cursor: pointer;
+
+}
+button :hover{
+box-shadow: 0px 5px 19px #791934;
+border-radius: 12px;
+background-color: #f3ac00;
+}
+/*ACA DEBERÍA IR LAS PUBLICIDADES Y PORTADA DE MIERDA LA CSM COMO MIERDA SE ME OCURRE RECIEN ACERCA ACA, AYUDA NO ES UN MEME, ME VO'A MATAR*/
+#publicidad1 img{
+    width: 100%; 
+}
+#publicidad2 img{
+    width: 100%;
+}
+.portada img{
+    width: 100%;
+}
+
+/*ACA ME OCUPO DE LA MISIÓN DE LA EMPRESA DEL OTRO*/
+.misión_vis{
+border: 1px solid #f3ac00;;
+}
+
+/*LOS CONTACTOS DE MIERDA; OTRA VEZ; XQ DOS VECES LPTM*/
+form{
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+.contactos{
+    width: 60%;
+    background-color: #fffdf8
+}
+input, textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+#hamburguesa{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#activadomenu{
+    display: none;
+}
+
+/*AHORA TAMBIÉN PARA LOS IPHONES DE MIERDA GASTA AGUA Y DE PURO ALINADOS DE MIERDA*/
+@media (max-width: 750px){
+    #menu{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px;
+    }
+    #menu a{
+        display: flex;
+    }
+    #contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+    #publicidad1, #contenido, #publicidad2{
+        width: 100%;
+    }
+    #publicidad1 img{
+        width: 150px;
+        margin: auto;
+    }
+    #publicidad2 img{
+        width: 150px;
+    }
+    iframe{
+        height: 600px;
+    }
+    #galeria_prod{
+        grid-template-columns: repeat(1,auto);
+    }
+    #hamburguesa{
+        display: block;
+    }
+    #activadomenu:checked + #hamburguesa + #menu{
+        display: flex;
+    }
+}
